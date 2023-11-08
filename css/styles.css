@@ -1,0 +1,71 @@
+/*
+#ef476f -> rojo/rosado
+#ffd166 -> amarillo
+#06d6a0 -> verde
+#118ab2 -> azul medio
+#073b4c -> azul oscuro
+#e3fffc -> azul claro
+*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #e3fffc;
+}
+
+header{
+    background-color: #06d6a0;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li{
+    display: inline;
+    background-color: #ef476f;
+    padding: 1rem;
+    margin-left: 1rem;
+    border-radius: 1rem;
+}
+
+li a{
+    color: #fff;
+}
+
+main{
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+}
+
+section{
+    background-color: #ffd166;
+    padding: 1rem;
+    border-radius: 2rem;
+    max-width: 64rem;
+    margin-bottom: 1rem;
+}
+
+h2{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5em;
+}
+
+footer{
+    background-color: #118ab2;
+    color: #fff;
+    font-weight: bold;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer a{
+    color: #fff;
+}
