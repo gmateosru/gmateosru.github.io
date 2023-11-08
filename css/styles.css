@@ -5,6 +5,7 @@
 #118ab2 -> azul medio
 #073b4c -> azul oscuro
 #e3fffc -> azul claro
+#bcdccb -> menta claro
 */
 
 
@@ -14,11 +15,11 @@
 }
 
 body{
-    background-color: #e3fffc;
+    background-color: #bcdccb;
 }
 
 header{
-    background-color: #06d6a0;
+    background-color: #ffd166;
     padding: 1em;
     display: flex;
     justify-content: space-between;
@@ -38,17 +39,12 @@ li a{
 }
 
 main{
+    background-color: #118ab2;
     padding: 2em;
+    padding-top: 0;
     display: flex;
-    flex-direction: column;
-}
-
-section{
-    background-color: #ffd166;
-    padding: 1rem;
-    border-radius: 2rem;
-    max-width: 64rem;
-    margin-bottom: 1rem;
+    flex-wrap: nowrap;
+    justify-content: center;
 }
 
 h2{
@@ -56,8 +52,29 @@ h2{
     margin-bottom: 0.5em;
 }
 
+div.posts{
+    background-color: #073b4c;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-top: none;
+    padding: 1rem;
+    padding-top: 2rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    max-width: 107rem;
+}
+
+article{
+    background-color: #e3fffc;
+    padding: 1rem;
+    margin: 0.5rem;
+    border-radius: 1rem;
+    width: 30rem;
+}
+
 footer{
-    background-color: #118ab2;
+    background-color: #06d6a0;
     color: #fff;
     font-weight: bold;
     padding: 1em;
