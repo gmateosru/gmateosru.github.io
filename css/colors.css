@@ -1,0 +1,62 @@
+/*
+#ef476f -> rojo/rosado
+#ffd166 -> amarillo
+#06d6a0 -> verde
+#118ab2 -> azul medio
+#073b4c -> azul oscuro
+#e3fffc -> azul claro
+#bcdccb -> menta claro
+*/
+
+body{
+    background-color: #bcdccb;
+}
+
+header{
+    background-color: #ffd166;
+}
+
+header a{
+    text-decoration: none;
+    color: #000
+}
+
+li{
+    background-color: #ef476f;
+}
+
+li a{
+    color: #fff;
+}
+
+main{
+    background-color: #118ab2;
+}
+
+div.content{
+    background-color: #073b4c;
+}
+
+article{
+    background-color: #e3fffc;
+}
+
+h2 a{
+    color: #073b4c;
+}
+
+p.tag{
+    background-color: #ef476f;
+    color: #fff;
+    font-weight: bold;
+}
+
+footer{
+    background-color: #06d6a0;
+    color: #fff;
+    font-weight: bold;
+}
+
+footer a{
+    color: #fff;
+}
