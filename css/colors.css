@@ -10,6 +10,11 @@
 
 body{
     background-color: #bcdccb;
+    background-image: url("../img/image.png");
+    background-repeat: no-repeat;
+    background-size: 12rem;
+    background-position-x: center;
+    background-position-y: 2rem;
 }
 
 header{
@@ -54,6 +59,10 @@ p.tag{
 span.url{
     background-color: #000;
     font-family: monospace;
+}
+
+img{
+    border: 2px solid #bcdccb;
 }
 
 footer{

@@ -16,13 +16,24 @@
     <main>
         <div class="content">
             <h2>Cómo subir páginas a GitHub Pages</h2>
-            <p>En esta guía paso a paso, te llevaré a través del proceso de subir tu sitio web a GitHub Pages, un servicio de alojamiento gratuito ofrecido por GitHub. Esto nos permitirá ofrecer nuestra web de forma pública a cualquier persona en la web de una forma sencilla.</p>
+            <p>En esta guía paso a paso, te llevaré a través del proceso de subir tu sitio web a <a href="https://pages.github.com/">GitHub Pages</a>, un servicio de alojamiento gratuito ofrecido por GitHub. Esto nos permitirá ofrecer nuestra web de forma pública a cualquier persona en la web de una forma sencilla.</p>
             <p>Cualquier página que queramos alojar en GitHub Pages deberá ser un repositorio. Además, si no tenemos un plan Pro, deberá ser un repositorio público.</p>
             <p>Entonces, lo primero que debemos hacer es crear un repositorio donde tengamos nuestra página. Si ya tenemos nuestra página en un repositorio, nos debemos asegurar de que este repositorio sea público.</p>
-            <p>GitHub Pages nos permitirá desplegar (deploy) una rama en concreto de nuestro repositorio. Podemos crear una rama "gh-pages", o podemos usar la rama por defecto (generalmente main), o cualquier otra. Esto nos permitirá crear ramas paralelas para realizar cambios o pruebas sin afectar a la web pública, y más tarde fusionarlos a la principal cuando todo funcione correctamente.</p>
+            <div class="images">
+                <img src="./img_posts/github-pages_1.png" alt="botón de ajustes del repositorio en la barra de navegación">
+            </div>
             <p>Para activar GitHub Pages, iremos a la pestaña de configuración del repositorio, y en la sección de Pages, abriremos el desplegable de "Build and deployment". Ahí simplemente seleccionamos la rama principal de nuestro repositorio, que será la que vayamos a desplegar.</p>
+            <div class="images">
+                <img src="./img_posts/github-pages_2.png" alt="botón de Pages en el menú lateral izquierdo">
+            </div>
+            <p>GitHub Pages nos permitirá desplegar (deploy) una rama en concreto de nuestro repositorio. Podemos crear una rama "gh-pages", o podemos usar la rama por defecto (generalmente main), o cualquier otra. Esto nos permitirá crear ramas paralelas para realizar cambios o pruebas sin afectar a la web pública, y más tarde fusionarlos a la principal cuando todo funcione correctamente.</p>
+            <div class="images">
+                <img src="./img_posts/github-pages_3.png" alt="desplegable de selección de rama en la página de configuración de GitHub Pages">
+                <img src="./img_posts/github-pages_4.png" alt="rama y ruta predeterminada seleccionada" style="height: 9rem;">
+            </div>
             <p>Con esto nuestra página ya estaría pública bajo la dirección <span class="url">(nuestrousuario).github.io/(nombre-repositorio)</span>, aunque puede tardar un rato en actualizarse.</p>
             <p>Además, podemos crear una página de inicio para nuestro usuario, que usará la dirección <span class="url">(nuestrousuario).github.io</span>. Para esto, simplemente crearemos nuestra página en un repositorio llamado igual que dicha url <span class="url">(nuestrousuario).github.io</span>, y ya podremos usarla como página de inicio.</p>
+            <p>En este último caso estaríamos creando nuestra página principal en nuestro perfil, mientras que en el primer ejemplo estaríamos publicando una página para un repositorio en concreto. Esto es útil si queremos hacer una página para un proyecto (de presentación por ejemplo), o simplemente publicar una página individual.</p>
         </div>
     </main>
 
