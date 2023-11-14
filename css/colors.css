@@ -51,6 +51,11 @@ p.tag{
     font-weight: bold;
 }
 
+span.url{
+    background-color: #000;
+    font-family: monospace;
+}
+
 footer{
     background-color: #06d6a0;
     color: #fff;
